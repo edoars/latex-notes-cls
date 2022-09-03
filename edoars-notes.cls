@@ -90,7 +90,8 @@
 %----------------------------
 	%\RequirePackage[automark]{scrpage2}
 	\RequirePackage[automark]{scrlayer-scrpage}
-	\clearscrheadings
+	\clearmainofpairofpagestyles
+
 
 	\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 	\renewcommand{\sectionmark}[1]{\markright{\textsc{\MakeTextLowercase{\thesection}} \spacedlowsmallcaps{#1}}}
@@ -112,7 +113,7 @@
 
 	%paragrafi
 	\renewcommand{\sectionlinesformat}[4]{%
-	\ifstr{#1}{subsection}
+	\Ifstr{#1}{subsection}
 		{\color{contrast}\normalfont\LARGE\sffamily%subsection settings
 		\textsc{\MakeTextLowercase{\thesubsection}}\hspace{1em}%
 		\color{darker}\spacedlowsmallcaps{#4}}
