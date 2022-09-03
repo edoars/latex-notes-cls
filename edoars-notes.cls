@@ -391,7 +391,6 @@
 			colback=lighter,colbacktitle=darker,
 			separator sign dash,
 			arc=3mm,
-			label separator=
 		},
 		propStyle/.style={
 			boxrule=0.3mm,toprule=0.3mm,bottomrule=0.3mm,titlerule=0.3mm,
@@ -400,7 +399,6 @@
 			colframe=compl,colback=lighter,colbacktitle=darker,
 			separator sign dash,
 			arc=0mm,outer arc=0mm,
-			label separator=
 		},
 		defStyle/.style={
 			enhanced,frame empty,interior empty,
@@ -411,7 +409,6 @@
 			separator sign dash,
 			attach boxed title to top left={yshift=-2mm},
 			boxed title style={boxrule=0pt},varwidth boxed title,
-			label separator=
 		},
 		remarkStyle/.style={
 			enhanced,frame empty,interior empty,
@@ -423,7 +420,6 @@
 			separator sign none,
 			attach boxed title to bottom right={yshift=+2mm, xshift=-2mm},
 			boxed title style={boxrule=0.5mm},varwidth boxed title,
-			label separator=
 		},
 		corStyle/.style={
 
@@ -433,9 +429,9 @@
 	\newcounter{dummy}
 	\numberwithin{dummy}{section}
 
-	\newtcbtheorem[number within=chapter]{teor}{\iftoggle{@english}{Theorem}{Teorema}}{teorStyle}{}
-	\newtcbtheorem[use counter from=teor]{prop}{\iftoggle{@english}{Proposition}{Proposizione}}{propStyle}{}
-	\newtcbtheorem[use counter from=teor]{defn}{\iftoggle{@english}{Definition}{Definizione}}{defStyle}{}
+	\newtcbtheorem[number within=chapter]{teor}{\iftoggle{@english}{Theorem}{Teorema}}{teorStyle}{th}
+	\newtcbtheorem[use counter from=teor]{prop}{\iftoggle{@english}{Proposition}{Proposizione}}{propStyle}{pr}
+	\newtcbtheorem[use counter from=teor]{defn}{\iftoggle{@english}{Definition}{Definizione}}{defStyle}{df}
 	\newtcbtheorem[no counter]{remark}{}{remarkStyle}{}
 
 
