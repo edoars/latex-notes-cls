@@ -1,7 +1,7 @@
 %----------------------------
 %IMPOSTAZIONI INIZIALI
 %----------------------------
-	\ProvidesClass{edoars-notes}[2016/10/05 version 0.3.0 Lecture notes]
+	\ProvidesClass{edoars-notes}[2022/09/03 version 0.3.1 Lecture notes]
 	\NeedsTeXFormat{LaTeX2e}
 
 	\RequirePackage{etoolbox}
