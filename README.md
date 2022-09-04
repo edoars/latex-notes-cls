@@ -1,6 +1,15 @@
 # LaTeX Lecture Notes Class
 
-Custom LaTeX class for my notes on some undergraduate maths courses at University of Roma Tre and University of Trento.
+Custom LaTeX class for my notes on some undergraduate maths courses at University of Roma Tre and University of Trento:
+
+- [Analytical Mechanics](https://github.com/edoars/analytical-mechanics-notes) (italian)
+- [Complex Analysis](https://github.com/edoars/complex-analysis-notes) (italian)
+- [Finite Fields](https://github.com/edoars/finite-fields-notes)
+- [Galois Theory](https://github.com/edoars/galois-theory-notes) (italian)
+- [General Topology](https://github.com/edoars/general-topology-notes) (italian)
+- [Introduction to Number Theory](https://github.com/edoars/intro-number-theory-notes) (italian)
+- [Multivariate Calculus](https://github.com/edoars/multivariate-calculus-notes) (italian)
+- [Public-key Cryptography](https://github.com/edoars/public-key-crypto-notes) (italian)
 
 ## Usage
 
